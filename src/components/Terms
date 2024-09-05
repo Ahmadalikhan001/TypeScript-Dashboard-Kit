@@ -1,0 +1,164 @@
+import React from 'react';
+import { Typography, Box } from '@mui/material';
+
+const TermsAndConditions: React.FC = () => {
+  return (
+    <Box sx={{ padding: 2, maxWidth: '80%', margin: '0 auto' }}>
+      <Typography variant="h4" gutterBottom>
+        Terms and Conditions
+      </Typography>
+
+      <Typography variant="h6" gutterBottom>
+        1. Introduction
+      </Typography>
+      <Typography paragraph>
+        Welcome to RoboSafety. These Terms and Conditions govern your use of our services. By using our services, you agree to comply with these terms. If you do not agree, please do not use our services.
+      </Typography>
+
+      <Typography variant="h6" gutterBottom>
+        2. User Responsibilities
+      </Typography>
+      <Typography paragraph>
+        You agree to use our services responsibly and not to engage in any activity that may harm or disrupt our services. You are responsible for maintaining the confidentiality of your account information.
+      </Typography>
+
+      <Typography variant="h6" gutterBottom>
+        3. Feedback
+      </Typography>
+      <Typography paragraph>
+        Nothing in these Terms and Conditions shall serve to limit our right to independently use, develop, evaluate, promote, market, or sell any products or services, whether they incorporate any Feedback or otherwise. RoboSafety acknowledges that any Feedback that you may provide is provided on an “as-is” basis, without representation of any kind as to the efficacy or usefulness of such feedback.
+      </Typography>
+
+      <Typography variant="h6" gutterBottom>
+        4. Privacy Rights
+      </Typography>
+      <Typography paragraph>
+        4.1 Privacy Obligations: Notwithstanding any provisions, representations, and warranties to the contrary, RoboSafety and User acknowledge that there is a possibility that the User Data and Usage Data may contain Personal Data, the use of which data is subject to various privacy laws, including all provincial, state, federal, and international laws and regulations and provincial, state, federal, and national government agency orders and decrees to which User may be subject (“Privacy Laws”), as well as certain restrictions imposed on the Personal Data by the data subjects or other third-party data providers. RoboSafety and User agree to strictly abide by all such restrictions pertaining to the Personal Data, as they are promulgated and applied, currently and in the future. Furthermore, RoboSafety shall in good faith execute any and all agreements that User is required to have RoboSafety execute in order that User may comply with any Privacy Laws. If RoboSafety or User’s use (whether directly or indirectly) of the Personal Data is contrary to any Privacy Law, or contrary to any of the restrictions set forth in these Terms and Conditions, the non-violating party shall have the right to: (a) terminate this Agreement for cause if such breach has not been cured within five (5) days of receipt by the violating party of written notice, and (b) pursue any other legal and equitable remedies. For greater certainty, RoboSafety’s Privacy Policy [https://robosafety.ca/robosafety-privacy-policy/] governs RoboSafety’s collection, use, disclosure, retention, and disposal of Personal Data and forms part of these Terms and Conditions.
+      </Typography>
+
+      <Typography variant="h6" gutterBottom>
+        5. Confidentiality
+      </Typography>
+      <Typography paragraph>
+        5.1 Definition of Confidential Information: As used herein, “Confidential Information” means all confidential and proprietary information of a Party (“Disclosing Party”) disclosed to the other Party (“Receiving Party”), whether orally or in writing, or whether disclosed purposefully or inadvertently, that is designated as confidential or that reasonably should be understood to be confidential given the nature of the information and the circumstances of disclosure, including PathFinder, Services, and any User Data. Confidential Information shall not include any information that: (i) is or becomes generally known to the public without breach of any obligation owed to Disclosing Party; (ii) was known to Receiving Party prior to disclosure by Disclosing Party without breach of any obligation owed to Receiving Party; (iii) is received from a third party without breach of any obligation owed to Disclosing Party; or (iv) was independently developed by Receiving Party without any use of or reference to Disclosing Party’s Confidential Information.
+      </Typography>
+
+      <Typography paragraph>
+        5.2 Confidentiality: Receiving Party shall implement and maintain commercially reasonable and appropriate technical, administrative, and physical safeguards and security methods designed to prevent any unauthorized release, access to or publication of Confidential Information, or Personal Information. Receiving Party shall implement processes and maintain procedures designed to comply with Applicable Laws. For the purposes of RoboSafety’s processing of User Data, these Terms and Conditions are User’s instructions for storing User Data, and RoboSafety shall not process User Data for any other purpose. Receiving Party may use subcontractors to facilitate its obligations under these Terms and Conditions. Receiving Party shall use commercially reasonable measures to ensure that such subcontractors implement and comply with reasonable security measures in handling any Confidential Information. Receiving Party shall not disclose or use any Confidential Information for any purpose outside the scope of these Terms and Conditions, except with Disclosing Party’s prior written permission, subject to Section 5.3.
+      </Typography>
+
+      <Typography paragraph>
+        5.3 Compelled Disclosure: If Receiving Party is compelled by law to disclose Confidential Information of Disclosing Party, including User Data, it shall provide Disclosing Party, as applicable, with prior notice of such compelled disclosure (to the extent legally permitted) and reasonable assistance, at Disclosing Party’s cost, if Disclosing Party wishes to contest the disclosure.
+      </Typography>
+
+      <Typography variant="h6" gutterBottom>
+        6. Warranties & Disclaimers
+      </Typography>
+      <Typography paragraph>
+        6.1 Warranties: Each party represents and warrants that it has the legal power to be bound by these Terms and Conditions and any Proposals. User represents and warrants that for any Personal Data controlled by it, or any other Personal Data provided or transmitted by User to RoboSafety, whether advertent or otherwise, User, as applicable, has obtained the necessary consent or legal right to provide or transmit such data.
+      </Typography>
+
+      <Typography paragraph>
+        6.2 No Guarantee: User acknowledges that PathFinder is designed to assist companies and Users in identifying, analyzing, and mitigating safety risks based on the information, data, and safety test results uploaded to PathFinder by Users, and that ultimate accountability, responsibility, and liability for any decisions or actions that may be taken by Users. RoboSafety accepts no responsibility, and hereby disclaims all liability arising out of or relating to any losses or damage that may be incurred by User or the company User represents for any decisions that are implemented due to the results generated by PathFinder. PathFinder is intended to complement, and not replace, User’s existing safety risk mitigation practices.
+      </Typography>
+
+      <Typography paragraph>
+        6.3 Disclaimer: User acknowledges that no application is capable of providing complete protection against all known and unknown vulnerabilities/zero-day threats. To the maximum extent permitted by applicable law, PathFinder and any services provided hereunder are provided “as is,” with all faults, defects, bugs, and/or errors that may be present in the services, and RoboSafety makes no (and hereby disclaims all) other warranties, representations, or conditions, whether written, oral, express, implied, or statutory, including, without limitation, any implied warranties of satisfactory quality, course of dealing, trade usage or practice, merchantability, title, noninfringement, or fitness for a particular purpose, with respect to the use, misuse, or inability to use PathFinder and/or services (in whole or in part) or any other products or services provided to user by RoboSafety. RoboSafety does not warrant that all errors can be corrected, or that the operation of PathFinder shall be uninterrupted or error-free.
+      </Typography>
+
+      <Typography paragraph>
+        6.4 User Representation and Warranty: You represent and warrant that all information and content you submit upon creating your Account, including information linked to any social media accounts, are accurate and truthful, and you have the right to post such content or information through PathFinder. You also acknowledge and agree that RoboSafety, its affiliates, or third-party partners, may place advertising through PathFinder.
+      </Typography>
+
+      <Typography variant="h6" gutterBottom>
+        7. Indemnification
+      </Typography>
+      <Typography paragraph>
+        7.1 Indemnification by User: Subject to these Terms and Conditions, User shall defend, indemnify, and hold RoboSafety harmless against any loss, damage, or costs (including reasonable attorneys’ fees) incurred in connection with any loss, damage, or costs (including reasonable attorneys’ fees) incurred in connection with claims, demands, suits, or proceedings (“Claims”) made or brought against RoboSafety by a third party alleging that the User Data, or User’s use of PathFinder: (i) infringes the intellectual property rights of such third party, or (ii) has harmed such third party because Malicious Code was uploaded or inputted by Users, (iii) electronic data or information was uploaded or inputted by Users without such third party’s authorization or permission, or (iv) violates any Applicable Law, or has otherwise harmed a third party; provided, that RoboSafety (a) promptly gives written notice of the Claim to User; (b) gives User sole control of the defense and settlement of the Claim (provided that User may not settle or defend any Claim unless it unconditionally releases RoboSafety of all liability); and (c) provides to User, at User’s cost, all reasonable assistance.
+      </Typography>
+
+      <Typography variant="h6" gutterBottom>
+        8. Limitation of Liability
+      </Typography>
+      <Typography paragraph>
+        8.1 Limitation of Liability: In no event shall RoboSafety’s aggregate liability arising out of or related to these Terms and Conditions, or relationship between RoboSafety and user, whether in contract, tort, or under any other theory of liability, exceed the subscription fees or under the relevant proposal, if any, paid by and due from the user hereunder.
+      </Typography>
+
+      <Typography paragraph>
+        8.2 Exclusion of Consequential and Related Damages: In no event shall RoboSafety have any liability to user(s) for any lost profits or for any indirect, special, incidental, punitive, or consequential or exemplary damages however caused and, whether in contract, tort, or under any other theory of liability, whether or not the user has been advised of the possibility of such damages.
+      </Typography>
+
+      <Typography paragraph>
+        8.3 Limitation of Claims: Except with respect to claims relating to the misuse of confidential information or personal information, the user shall not bring any claim relating to the agreement more than two years after the events giving rise to the claim occurred.
+      </Typography>
+
+      <Typography paragraph>
+        8.4 General: These exclusions and limitations apply even if the remedies are insufficient to cover all of the losses or damages of the user. Some jurisdictions do not allow the exclusion of certain warranties or the limitation or exclusion of liability for incidental or consequential damages. Accordingly, some or all of the above exclusions or limitations may not apply and the parties may have additional rights.
+      </Typography>
+
+      <Typography variant="h6" gutterBottom>
+        9. Termination
+      </Typography>
+      <Typography paragraph>
+        9.1 Termination for Cause: RoboSafety may terminate this Agreement immediately without written notice to User for a breach or violation, or suspected breach or suspected violation, of any provision under these Terms and Conditions, as determined in the sole discretion of RoboSafety. Verbal or written abuse of any kind (including threats of abuse or retribution) of any RoboSafety User, employee, member, or officer will result in immediate Account termination. If RoboSafety, in its sole and absolute discretion, suspects for any reason that User has uploaded illicit or prohibited materials under these Terms and Conditions to their Account, RoboSafety reserves the right to terminate the Account in connection with such suspicion.
+      </Typography>
+
+      <Typography paragraph>
+        9.2 Cancellation: User may cancel the Account and terminate this Agreement at any time by contacting info@robosafety.ca or deleting the User Account through account settings.
+      </Typography>
+
+      <Typography paragraph>
+        9.3 Outstanding Fees: Termination or cancellation shall not relieve the User of the obligation to pay any fees accrued or payable to RoboSafety prior to the effective date of termination.
+      </Typography>
+
+      <Typography paragraph>
+        9.4 Surviving Provisions: The following provisions of these Terms and Conditions shall survive any termination or expiration of these Terms and Conditions: Sections 6 through 14.
+      </Typography>
+
+      <Typography variant="h6" gutterBottom>
+        10. General Provisions
+      </Typography>
+      <Typography paragraph>
+        10.1 Relationship of the Parties: These Terms and Conditions do not create a partnership, franchise, joint venture, agency, fiduciary, or employment relationship between the parties.
+      </Typography>
+
+      <Typography paragraph>
+        10.2 No Third-Party Beneficiaries: Except as otherwise expressed herein, there are no third-party beneficiaries under these Terms and Conditions.
+      </Typography>
+
+      <Typography paragraph>
+        10.3 Entire Agreement: This Agreement consists of the entire agreement between the Parties hereto with respect to the subject matter hereof and supersede any previous understandings or agreements, whether written or oral, in respect of such subject matter.
+      </Typography>
+
+      <Typography paragraph>
+        10.4 Waiver and Cumulative Remedies: No failure or delay by either party in exercising any right under these Terms and Conditions shall constitute a waiver of that right. Other than as expressly stated herein, the remedies provided herein are in addition to, and not exclusive of, any other remedies of a party at law or in equity.
+      </Typography>
+
+      <Typography paragraph>
+        10.5 Severability: If any provision of these Terms and Conditions is held by a court of competent jurisdiction to be contrary to law, the provision shall be modified by the court and interpreted so as best to accomplish the objectives of the original provision to the fullest extent permitted by law, and the remaining provisions of these Terms and Conditions shall remain in effect.
+      </Typography>
+
+      <Typography paragraph>
+        10.6 Assignment: User may not assign any of its rights or obligations hereunder, whether by operation of law or otherwise, without the prior written consent of RoboSafety (not to be unreasonably withheld). Notwithstanding the foregoing, RoboSafety may assign this Agreement in its entirety, without consent of the User, in connection with a merger, acquisition, corporate reorganization, or sale of all or substantially all of its assets. Any attempt by User to assign its rights or obligations under these Terms and Conditions in breach of this Section 10.6 shall be void and of no effect. Subject to the foregoing, these Terms and Conditions shall bind and enure to the benefit of the parties, their respective successors, and permitted assigns.
+      </Typography>
+
+      <Typography paragraph>
+        10.7 Governing Law and Exclusive Jurisdiction: These Terms and Conditions will be governed by and construed in accordance with the laws of the Province of Ontario and the laws of Canada applicable therein, without regard to principles of conflicts of laws. In the event that any dispute should arise in connection with these Terms and Conditions, or the construction or application thereof, or as to any act, deed, or omission of RoboSafety, any User, or any User, the parties irrevocably submit to the exclusive jurisdiction of the courts of the Province of Ontario for the resolution of any such dispute.
+      </Typography>
+
+      <Typography paragraph>
+        10.8 Equitable Relief: User acknowledges that damages may be an inadequate remedy if User violates the obligations under these Terms and Conditions, and RoboSafety shall have the right, in addition to any other rights it may have, to seek injunctive relief without any obligation to post any bond or similar security.
+      </Typography>
+
+      <Typography paragraph>
+        10.9 Notices: RoboSafety shall communicate announcements of general interest by email or by posting on its Website. RoboSafety shall provide User with legal notices by email provided by User. User shall immediately notify RoboSafety if User’s email address for notice changes. Except as otherwise specified in these Terms and Conditions, all notices must be in writing to info@robosafety.ca.
+      </Typography>
+
+      <Typography paragraph>
+        10.10 Dispute Resolution: All disputes arising in connection with this Agreement and its negotiation, performance, breach, existence, or validity shall be referred to and determined by arbitration with ADR Chambers in accordance with the ADR Chambers Arbitration Rules and the Arbitration Act, 1991 (Ontario). Notwithstanding the foregoing, neither Party shall be precluded from applying to a court of competent jurisdiction for any relief in the nature of injunction, specific performance, or other equitable remedy.
+      </Typography>
+    </Box>
+  );
+};
+
+export default TermsAndConditions;
